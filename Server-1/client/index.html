@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__brand">Homework</div>
+    </header>
+
+    <section class="action-buttons">
+        <button id="btn-get" class="btn btn-get">GET</button>
+        <button id="btn-post" class="btn btn-post">POST</button>
+    </section>
+
+    <section>
+        <p>Input the required properties to register a new user:</p>
+        <br>
+        <br>
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input">
+        <br>
+        <br>
+        <label for="username-input">User-name:</label>
+        <input type="text" id="username-input">
+        <br>
+        <br>
+        <label for="e-mail">E-mail:</label>
+        <input type="text" id="email-input">
+        <br>
+        <br>
+        <button type="button" id="submit">Submit</button>
+    </section>
+
+    <section class="users-container">
+        <div id="users-posts"></div>
+    </section>
+<script src="./app.js"></script>
+</body>
+</html>
